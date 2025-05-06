@@ -6,7 +6,6 @@
     justify-content: center;
     border-radius: 15px;
     background-color: #fff;
-    /* border: 1px solid black; */
     width: 500px;
     margin: 250px auto;
     padding: 20px 30px 30px 30px;
@@ -78,4 +77,53 @@ input {
     margin-top: 15px;
     font-size: 17px;
     padding: 10px;
+}
+
+@media(max-width:768px) {
+    .currency-inputs-div {
+        width: 400px;
+    }
+    
+
+.button-div {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.converter-button {
+    width: 100%;
+    height: 40px;
+    background-color: #733635;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 17px;
+    padding: 10px;
+}
+}
+
+@media(max-width:480px) {
+
+    .currency-inputs-div {
+        width: 350px;
+    }
+
+}
+
+@media(max-width:380px) {   
+
+    .currency-inputs-div {
+        width: 300px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    #currency-option {
+        font-size: 17px;
+    }
 }

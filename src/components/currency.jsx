@@ -85,7 +85,7 @@ function Currency() {
             </select>
         </div>
 
-        <div>
+        <div className='button-div'>
             <button onClick={exchange} className='converter-button'>Convert</button> {/*the exchange function will run when the convert button is clicked */}
         </div>
 
