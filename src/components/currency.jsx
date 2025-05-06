@@ -13,7 +13,7 @@ const currencySymbols = {
 
 
     let BASE_URL = "https://api.freecurrencyapi.com/v1/latest"
-    let API_KEY = "fca_live_fowI4fCLg5FiMkps4l8nNdp24oKhsTNiRdpA7hwp"
+    let API_KEY = import.meta.env.VITE_CURRENCY_API_KEY;
 
 
 
